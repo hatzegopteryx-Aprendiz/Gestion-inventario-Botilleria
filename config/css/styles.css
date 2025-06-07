@@ -1,0 +1,47 @@
+.catalogo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 24px;
+    padding: 32px;
+    background: #f8f9fa;
+}
+
+.catalogo-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 16px 16px 16px;
+    transition: box-shadow 0.2s;
+}
+
+.catalogo-card:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+
+.catalogo-card-img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px; 
+    margin-bottom: 16px;
+    background: #e9ecef;
+}
+
+.catalogo-card-nombre {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.catalogo-card-precio {
+    font-size: 1rem;
+    color: #388e3c;
+    font-weight: 500;
+    margin-top: auto;
+    text-align: center;
+}
